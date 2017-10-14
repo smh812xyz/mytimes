@@ -1,0 +1,45 @@
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+}
+
+h3 {
+  display: flex;
+  margin-left: 20px;
+  flex-shrink: 5;
+  font-size: 14px;
+  color: mediumaquamarine;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  z-index: 10;
+}
+
+.logo-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
